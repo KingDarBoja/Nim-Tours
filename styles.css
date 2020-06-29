@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  height: inherit;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #171921;
+}
+
+.header .logo {
+  padding-left: 10px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+.header .nim-logo {
+  height: 25px;
+  padding-left: 10px;
+}
+
+.body {
+  width: auto;
+  height: calc(100% - 90px);
+  padding: 20px;
+  background-color: #1e202a;
+  color: white;
+}
+
+a {
+  font-family: "Titillium Web";
+  color: #ffe953;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #fff086;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web";
+  margin: 0;
+  color: #ffe953;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 225%;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5;
+  margin-bottom: 0.6em;
+}
+
+li::before {
+  content: "» ";
+  font-weight: bold;
+  margin-right: 8px;
+  color: #ffe953;
+}
