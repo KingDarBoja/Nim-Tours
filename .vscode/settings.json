@@ -1,7 +1,5 @@
 {
-  "[html]": {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120,
-    "editor.wrappingIndent": "same"
-  }
+  "rewrap.wrappingColumn": 60,
+  "html.format.wrapLineLength": 120,
+  "html.format.unformatted": "a, b, i"
 }
